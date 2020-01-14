@@ -12,7 +12,7 @@
             cy.get("#add-to-cart-button-4").click()
             cy.wait(5000)
             cy.get("#topcartlink > a > span.cart-label").click()
-            cy.wait(3000)
+            cy.wait(4000)
             cy.get(".product-unit-price").contains('$1,800.00')
         }
         
